@@ -3,11 +3,14 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+a{
+  text-decoration: none;
+}
 header{
+  margin-top: none;
   min-height: 100vh;
   background: url(../images/bg.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
 }
 .navbar{
   height: 80px !important;
@@ -33,5 +36,15 @@ header{
   border-radius: 5px;
 }
 .heading-content h1{
+  color: #fff;
+}
+.heading-content h1 span{
+  color: crimson;
+}
+.primary-btn{
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background: crimson;
   color: #fff;
 }
